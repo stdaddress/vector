@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "typeRoots": [
+      "./types",
+      "node_modules/@types"
+    ],
+    "esModuleInterop": true,
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "src/**/*.test.ts",
+    "src/common/tests/*"
+  ],
+  "ts-node": {
+    "files": true
+  }
+}
